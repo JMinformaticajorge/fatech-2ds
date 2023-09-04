@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #fcfbfb;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+footer{
+    background-color: #1a1a1a;
+    color: aliceblue;
+}
+
+footer p{
+    text-align: center;
+    padding: 50px;
+}
+section{
+    margin: 0% auto;
+    max-width: 1200px;
+}
+
+.logotipo, .itensrodape, .sociais{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+}
+
+footer .menurodape{
+    background-color: #fcfbfb;
+    color: #1a1a1a;
+}
+
+footer .itensrodape a{
+    color: #1a1a1a;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 900;
+}
